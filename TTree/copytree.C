@@ -4,7 +4,7 @@
 
 void copytree()
 {
-    gSystem -> Load("$ROOTSYS/test/libEvent");
+    gSystem -> Load("$ROOTSYS/test/libEvent"); //what is gSystem? 
 
     //Get old file, old tree and set top branch address 
     TFile *oldfile = new TFile("$RootSYS/test/Event.root");//Declare a TFile class pointer and open the file  
